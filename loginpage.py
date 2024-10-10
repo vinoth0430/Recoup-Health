@@ -80,9 +80,5 @@ def succes_message(context):
 def close_browser(context):
     context.driver.quit()
 
-def tri(n):
-    if n % 2 == 0:
-        print("even number")
-    else:
-        print("none")
+
 
