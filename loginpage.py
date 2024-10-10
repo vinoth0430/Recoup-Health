@@ -51,6 +51,7 @@ def book_app(context):
     booking.click()
 
 
+
 @then(u'verify successful login or error message')
 def verify_login(context):
     time.sleep(3)  # Give time for page to load
@@ -78,3 +79,10 @@ def succes_message(context):
 @then(u'close browser')
 def close_browser(context):
     context.driver.quit()
+
+def tri(n):
+    if n % 2 == 0:
+        print("even number")
+    else:
+        print("none")
+
